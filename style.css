@@ -4,14 +4,67 @@ body {
     background: #777777;
     width: 960px;
     font-size: 18px;
+    margin: auto;
 }
 
-header, nav, section, aside, footer {
+header {
     background: #ebebeb;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+nav {
+    background: #ebebeb;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+footer {
+    background: #ebebeb;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+h1, p {
+    color: #777777;
+    background: #ebebeb;
+    padding: 10px 50px;
+}
+
+aside {
+    background: #ebebeb;
+    text-align: center;
+    display: block;
+    float: right;
+    width: 450px;
+    margin: auto;
+}
+
+section {
+    background: #ebebeb;
+    text-align: center;
+    display: block;
+    float: left;
     width: 495px;
+    position: absolute;
+    margin: auto;
 }
 
 article {
     color: #ebebeb;
     background: #777777;
+    width: 425px;
+    position: relative;
+    margin: auto;
+}
+
+footer {
+
+}
+
+div {
+    border: solid, 10px, #777777;
 }
