@@ -12,9 +12,9 @@ header, nav, .section, .aside, .footer {
     color: #777777;
 }
 
-.header {
-    border-top: 10px;
-    border-bottom: 10px;
+.div {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .section {
@@ -48,6 +48,7 @@ p {
     height: 250px;
     clear: both;
     background-color: #ebebeb;
+    margin-top: 6px;
 }
 
 .footer {
