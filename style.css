@@ -12,6 +12,11 @@ header, nav, .section, .aside, .footer {
     color: #777777;
 }
 
+.header {
+    border-top: 10px;
+    border-bottom: 10px;
+}
+
 .section {
     width: 500px;
     margin-bottom: 20px;
