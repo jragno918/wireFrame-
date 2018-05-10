@@ -12,14 +12,18 @@ header, nav, .section, .aside, .footer {
     color: #777777;
 }
 
-.div {
-    padding-top: 10px;
-    padding-bottom: 10px;
+.header {
+    height: 50px;
+}
+
+.nav {
+    height: 50px;
 }
 
 .section {
     width: 500px;
     margin-bottom: 20px;
+    height: 260px;
 }
 
 .article {
@@ -34,6 +38,7 @@ header, nav, .section, .aside, .footer {
     background-color: #ebebeb;
     width: 450px;
     margin: auto;
+    height: 20px;
 }
 
 p {
@@ -48,12 +53,14 @@ p {
     height: 250px;
     clear: both;
     background-color: #ebebeb;
-    margin-top: 6px;
+    margin-top: 25px;
+    height: 260px;
 }
 
 .footer {
     clear: both;
     padding-top: 1px;
     width: 960px;
+    height: 50px;
 }
 
